@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, button {
+  font-family: 'Lato', sans-serif;
+  color: #fafafa;
+  position: relative;
+
+}
+
+
+.video {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+
+  flex: 1;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+section {
+  max-width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 2;
+}
+
+header {
+  width: 100%;
+  padding: 30px;
+
+  background: linear-gradient(91.47deg, rgba(225, 225, 225, 0.7) 7.93%, rgba(225, 225, 225, 0.51) 100%);
+  backdrop-filter: blur(10px);
+  border-radius: 50px 0px 0px 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 21px;
+}
+
+ .container {
+  width: 100%;
+
+  padding: 30px;
+  background: linear-gradient(134.35deg, rgba(250, 250, 250, 0.7) 5.22%, rgba(250, 250, 250, 0.5) 96.65%);
+  backdrop-filter: blur(10px);
+  
+  border-radius: 0px 0px 50px 0px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container input {
+  width: 90%;
+  height: 45px;
+  padding: 15px;
+  
+  background: rgba(250, 250, 250, 0.96);
+  box-shadow: inset 0px 4px 10px rgba(37, 37, 37, 0.31);
+  border-radius: 5px;
+  border: none;
+  
+  margin-bottom: 30px;
+}
+
+.container input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  
+}
+.container span {
+  width: 90%;
+  height: fit-content;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.container button {
+  width: 100%;
+  padding: 13px;
+  background: #33DE96;
+  border-radius: 15px;
+  border: none;
+  font-size: 16px;
+
+  transition: .2s;
+}
+
+.container button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.circle {
+  width: 125px;
+  height: 125px;
+  background: rgb(110, 99, 240);
+  border-radius: 50%;
+
+  position: absolute;
+}
+
+#circle_1 {
+  top: 60%;
+  right: 31%;
+
+}
+
+#circle_2 {
+  width: 150px;
+  height: 150px;
+  bottom: 45%;
+  left: 30%;
+
+}
+
+#circle_3 {
+  width: 80px;
+  height: 80px;
+  bottom: 10%;
+}
