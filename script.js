@@ -1,11 +1,12 @@
+const span = document.querySelector('#result')
+
 function convert () {
   const input = document.querySelector("#binary")
-  const span = document.querySelector('#result')
   
   if(input.value){
     const splitedValue = input.value.split('').map(x => Number(x))
-    const isDecimal = splitValue.find(x => x > 1)
-
+    const isDecimal = splitedValue.find(x => x > 1)
+    
     if (!isDecimal) {
       const binary = splitedValue.reverse()
       const binaryNumber = []
@@ -24,7 +25,6 @@ function convert () {
 }
 
 function showResult (binaryNumber) {
-  const span = document.querySelector('#result')
   const result = binaryNumber.reduce((sum, value) => sum + value)
-  span.innerHTML = result
+  span.innerHTML = `Resultado: ${result}`
 }

@@ -4,15 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
   <title>Bin2Dec App</title>
 </head>
 <body>
-    <input 
-      type="number" 
-      id="binary" 
-    >
-    <button onclick="convert()">Calcular</button>
-    <span id="result">0</span>
+
+  <div class="video">
+    <video 
+     src="./bg.mp4"
+     autoplay
+     loop
+     muted
+     >
+   </video>
+
+  </div>
+  <main>
+    <section>
+      <header>CONVERSOR DE BINÁRIOS PARA DECIMAIS</header>
+      <div class="container">
+        <input type="number" id="binary" autocomplete="off">
+        <span id="result">Resultado...</span>
+        <button onclick="convert()">Converter</button>
+      </div>
+    </section>
+
+    <div class="circle" id="circle_1"></div>
+    <div class="circle" id="circle_2"></div>
+  </main>
 
   <script src="./script.js"></script>
 </body>
