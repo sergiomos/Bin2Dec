@@ -1,7 +1,8 @@
 # Bin2Dec + Glassmorphism
 
 ## Sobre o projeto
-Um dos projetos do repositorio [app-ideas](https://github.com/florinpop17/app-ideas), 
+
+Um dos projetos do repositório [app-ideas](https://github.com/florinpop17/app-ideas), 
 Esse projeto em particular, visa criar uma aplicação que converta um número binário para o decimal.
 Por ser um projeto relativamente simples, aproveitei para estudar o glassmorphism.
 
@@ -12,6 +13,7 @@ Por ser um projeto relativamente simples, aproveitei para estudar o glassmorphis
 </h1>
 
 ### Esse projeto foi inspirado por:
+
 - [Lilit Bandeira](https://github.com/lilitbandeira/glass-card)
 - [App-Ideas](https://github.com/florinpop17/app-ideas)
 - [Dev Ed](https://www.youtube.com/watch?v=O7WbVj5apxU&list=TLPQMTkwMTIwMjGXeh18I7i1aA&index=2)
@@ -19,5 +21,6 @@ Por ser um projeto relativamente simples, aproveitei para estudar o glassmorphis
 ---
 
 ### Minhas Redes Sociais
+
 - [Instagram](https://www.instagram.com/sergio_mdo/)
 - [LinkedIn](https://www.linkedin.com/in/sergiomos/)
